@@ -20,6 +20,7 @@ This repository contains the raw experimental data supporting the figures in the
 | `Supplementary_Data_Figures_7_Temperature_Drift.xlsx` | Temperature drift characteristics of the DUT with DG412 | Fig. 7 |
 | `Supplementary_Data_Figures_8_Temperature_Drift.xlsx` | Temperature drift characteristics of the DUT with ADG452 | Fig. 8 |
 | `Supplementary_Data_Figures_9_Temperature_Drift.xlsx` | Temperature drift characteristics after software compensation | Fig. 9 |
+| `Supplementary_Data_Figures_10_11_Temperature_Drift.xlsx` | Temperature drift characteristics at 3V output | Fig. 10, 11 |
 
 ---
 
@@ -28,13 +29,7 @@ This repository contains the raw experimental data supporting the figures in the
 ### 1. Supplementary_Data_Figures_3_to_6_Hysteresis.xlsx
 
 This file contains the output voltage measurements during thermal hysteresis elimination experiments under three operating conditions:
-
-| Sheet Name | Description |
-|------------|-------------|
-| `Fig3_Continuous` | Complete output voltage waveform during thermal cycling under continuous power |
-| `Fig4_Zoomed` | Zoomed view of output voltage before and after thermal cycling (continuous power) |
-| `Fig5_1.5h_Off` | Output voltage before/after 1.5 h power interruption and after one thermal cycle |
-| `Fig6_11.5h_Off` | Output voltage before/after 11.5 h power interruption and after one thermal cycle |
+  continuous power,  1.5 h power interruption, 11.5 h power interruption
 	
 **Columns:**
 - `Time - Meas`: Elapsed date-time
@@ -43,11 +38,8 @@ This file contains the output voltage measurements during thermal hysteresis eli
 ### 2. Supplementary_Data_Figures_7_Temperature_Drift.xlsx
 
 This file contains the temperature drift data of the DUT with the DG412 analog switch.
-
-| Sheet Name | Description |
-|------------|-------------|
-| `Fig7_DG412` | Output voltage vs. temperature during 15°C → 35°C → 15°C cycling |
-
+ Output voltage vs. temperature during 15°C → 35°C → 15°C cycling
+ 
 **Columns:**
 - `Temp2 - Temp2`: Internal DUT temperature measured by M1820Z sensor
 - `Voltage (V) - Meas`: Measured output voltage in volts
@@ -55,10 +47,7 @@ This file contains the temperature drift data of the DUT with the DG412 analog s
 ### 3. Supplementary_Data_Figures_8_Temperature_Drift.xlsx
 
 This file contains the temperature drift data of the DUT with the ADG452 analog switch.
-
-| Sheet Name | Description |
-|------------|-------------|
-| `Fig8_ADG452` | Output voltage vs. temperature during 15°C → 35°C → 15°C cycling |
+ Output voltage vs. temperature during 15°C → 35°C → 15°C cycling
 
 **Columns:**
 - `Temp2 - Temp2`: Internal DUT temperature measured by M1820Z sensor
@@ -67,10 +56,18 @@ This file contains the temperature drift data of the DUT with the ADG452 analog 
 ### 4. Supplementary_Data_Figures_9_Temperature_Drift.xlsx
 
 This file contains the temperature drift data after software compensation.
+ Output voltage vs. temperature after applying linear compensation algorithm
 
-| Sheet Name | Description |
-|------------|-------------|
-| `Fig9_Compensated` | Output voltage vs. temperature after applying linear compensation algorithm |
+**Columns:**
+- `Temp2 - Temp2`: Internal DUT temperature measured by M1820Z sensor
+- `Voltage (V) - Meas`: Measured output voltage in volts
+
+---
+
+### 5. Supplementary_Data_Figures_10_11_Temperature_Drift.xlsx
+
+This file contains the temperature drift data at 3V output before and after software compensation.
+ Output voltage vs. temperature after applying linear compensation algorithm
 
 **Columns:**
 - `Temp2 - Temp2`: Internal DUT temperature measured by M1820Z sensor
