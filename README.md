@@ -1,4 +1,4 @@
-# Supplementary Data for: Software-Based Thermal Hysteresis Elimination and Drift Compensation for an Oven-Controlled Voltage Reference
+# Supplementary Data for: Software-Based Thermal Hysteresis Elimination and Temperature Drift Compensation for an Oven-Controlled Precision Voltage Reference
 
 **Authors:** Dunding Zuo
 
@@ -21,6 +21,8 @@ This repository contains the raw experimental data supporting the figures in the
 | `Supplementary_Data_Figures_8_Temperature_Drift.xlsx` | Temperature drift characteristics of the DUT with ADG452 | Fig. 8 |
 | `Supplementary_Data_Figures_9_Temperature_Drift.xlsx` | Temperature drift characteristics after software compensation | Fig. 9 |
 | `Supplementary_Data_Figures_10_11_Temperature_Drift.xlsx` | Temperature drift characteristics at 3V output | Fig. 10, 11 |
+| `Supplementary_Data_Figures_12_Temperature_Drift.xlsx` | Temperature drift characteristics before software compensation at 6V output of ADR1399 | Fig. 12 |
+| `Supplementary_Data_Figures_13_Temperature_Drift.xlsx` | Temperature drift characteristics after software compensation at 6V output of ADR1399 | Fig. 13 |
 
 ---
 
@@ -68,6 +70,24 @@ This file contains the temperature drift data after software compensation.
 
 This file contains the temperature drift data at 3V output before and after software compensation.
  Output voltage vs. temperature after applying linear compensation algorithm
+
+**Columns:**
+- `Temp2 - Temp2`: Internal DUT temperature measured by M1820Z sensor
+- `Voltage (V) - Meas`: Measured output voltage in volts
+
+### 6. Supplementary_Data_Figures_12_Temperature_Drift.xlsx
+
+This file contains the temperature drift data at 6V output of ADR1399 before software compensation.
+ Output voltage vs. temperature
+
+**Columns:**
+- `Temp2 - Temp2`: Internal DUT temperature measured by M1820Z sensor
+- `Voltage (V) - Meas`: Measured output voltage in volts
+
+### 7. Supplementary_Data_Figures_13_Temperature_Drift.xlsx
+
+This file contains the temperature drift data at 6V output of ADR1399 before software compensation.
+ Output voltage vs. temperature after applying quadratic compensation algorithm
 
 **Columns:**
 - `Temp2 - Temp2`: Internal DUT temperature measured by M1820Z sensor
